@@ -1,4 +1,4 @@
-![cover](https://github.com/user-attachments/assets/6f196672-1017-497b-8a68-11a3e5c902ca)
+<img src="https://github.com/user-attachments/assets/6f196672-1017-497b-8a68-11a3e5c902ca" width="300"/>
 
 
 # LinkedIn Post Generator 🚀
