@@ -1,10 +1,10 @@
 import streamlit as st
-from post_generator import generate_post
-from few_shots import FewShotPosts
+from output_generator import generate_post
+from reference_posts import ReferencePosts
 from llm_helper import llm
 
-# Initializing FewShotPosts
-few_shot_provider = FewShotPosts(file_path="data/pro_posts.json")
+# Initializing ReferencePosts
+few_shot_provider = ReferencePosts(file_path="data/pro_posts.json")
 unique_tags = few_shot_provider.get_tags()
 
 st.title("LinkedIn Post Generator")
