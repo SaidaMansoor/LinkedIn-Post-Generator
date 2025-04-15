@@ -1,0 +1,1312 @@
+[
+	{
+		"text": "Forget recurrence. Let's use attention to directly focus on important words anywhere in the sequence — all at once!",
+		"engagement": 500
+	},
+	{
+		"text": "When you're stuck tuning hyperparameters... remember, even GridSearchCV needed time to find itself 😅",
+		"engagement": 420
+	},
+	{
+		"text": "Loss function is like your goal — it tells the model how wrong it is. Gradient Descent is like your guide — it tells the model how to improve step by step. 📉➡️📈",
+		"engagement": 510
+	},
+	{
+		"text": "Convolutional Neural Networks (CNNs) focus on **local features** in images. Think of it as scanning every small patch to find patterns like edges, textures, and shapes 🔍🖼️",
+		"engagement": 540
+	},
+	{
+		"text": "Why Batch Normalization? Because deep networks can have internal covariate shift. Normalizing each batch helps stabilize and speed up training ⏱️🧠",
+		"engagement": 590
+	},
+	{
+		"text": "Activation functions like ReLU, Sigmoid, and Tanh help neural networks learn complex patterns. Without them, neural nets would be just linear regressions in disguise 🧠🧮",
+		"engagement": 580
+	},
+	{
+		"text": "MLP (Multilayer Perceptron) is like a classic student: fully connected, layer by layer, solving problems through backpropagation 📚",
+		"engagement": 550
+	},
+	{
+		"text": "Self-Attention allows the model to look at every word in a sentence and decide what matters the most — no matter the distance 🔁",
+		"engagement": 670
+	},
+	{
+		"text": "Bidirectional RNNs read the input from both directions — left to right AND right to left. Better context, better predictions 🧭",
+		"engagement": 625
+	},
+	{
+		"text": "Why use embeddings in NLP? Because words are more than one-hot vectors. Embeddings give them meaning and similarity — 'king' and 'queen' will be close 💬❤️👑",
+		"engagement": 690
+	},
+	{
+		"text": "When your model doesn't converge, don't panic. Even failure teaches — every epoch matters 🧠📉",
+		"engagement": 650
+	},
+	{
+		"text": "AGI is not just a buzzword anymore. Every research paper is a step closer to general intelligence. Are you keeping up? 🤯📄",
+		"engagement": 890
+	},
+	{
+		"text": "Tuned models > foundation models for industry deployment. Fine-tuning is the new black 👕🎯",
+		"engagement": 850
+	},
+	{
+		"text": "Built an end-to-end ML pipeline from data cleaning to model deployment using Scikit-learn, Flask & Heroku — full stack ML 💻🛠️",
+		"engagement": 1025
+	},
+	{
+		"text": "Deployed a FastAPI-based image classification model on AWS with real-time prediction in < 1 sec — speed + scale 🚀",
+		"engagement": 980
+	},
+	{
+		"text": "Performed EDA on Airbnb dataset, identified 5 key pricing influencers using Seaborn & correlation plots — data speaks 📊",
+		"engagement": 920
+	},
+	{
+		"text": "Reduced model training time by 35% using NumPy vectorization and batch gradient descent — efficiency level: Bhai++ ⚙️⚡",
+		"engagement": 990
+	},
+	{
+		"text": "Collaborated with a team of 4 to create a dashboard that visualized COVID trends in India using Plotly & Dash — teamwork + tech 💪📉",
+		"engagement": 900
+	},
+	{
+		"text": "Used transfer learning (ResNet50) to classify plant diseases with 93% accuracy — farming bhi tech se bacha diya 🌱🤖",
+		"engagement": 1050
+	},
+	{
+		"text": "Created a recommendation system for a movie app using cosine similarity & user-based filtering — Netflix junior in the making 🎬🎯",
+		"engagement": 970
+	},
+	{
+		"text": "You don't need more time, you need more clarity. Schedule your *priorities* instead of prioritizing your *schedule* 📅✅",
+		"engagement": 950
+	},
+	{
+		"text": "‘I don’t have time’ is the adult version of ‘The dog ate my homework.’  Everyone has 24 hours — mindset decides the outcome ⏰🧠",
+		"engagement": 1080
+	},
+	{
+	"text": "Productivity hack for coders: 1. Morning = Deep Work (Algos/ML models)  2. Noon = Learning (Docs/Tech blogs)  3. Night = Code Review + Planning  Pro tip: Use Pomodoro (25min focus + 5min walk) - Boosted my @github commits 3x! 🚀⏳ #DeveloperGrind",
+	"engagement": 1200
+	},
+	{
+		"text": "Don’t downgrade your dream just to fit your comfort zone.  Upgrade your hustle to match your ambition 💻🔥",
+		"engagement": 470
+	},
+	{
+		"text": "Read what you apply. 10 books stacked > 100 books skimmed. Knowledge is useless without action. 🛠️📚",
+		"engagement": 900
+	},
+	{
+		"text": "Meditation is CTRL+ALT+DEL for your brain. 10 mins/day = mental cache clear. 💻",
+		"engagement": 1200
+	},
+	{
+		"text": "Stop comparing Chapter 1 of your life to someone’s Chapter 20. Your book is still being written. 📖✍️",
+		"engagement": 840
+	},
+	{
+		"text": "Journaling = talking to your future self. 6 months later, you’ll thank your past self for the clarity. ✍️🕰️",
+		"engagement": 399
+	},
+	{
+		"text": "The 5 AM club isn’t about waking up early—it’s about owning your day before the world distracts you. 🌅🔑",
+		"engagement": 1300
+	},
+	{
+		"text": "Self-improvement is selfish until it’s not. Grow fast, lift others faster. 🌱🚀",
+		"engagement": 1000
+	},
+	{
+		"text": "Python or R? ‘Language doesn’t matter, problem-solving does’. Pick one and master EDA, stats, and visualization first. 📊🐍",
+		"engagement": 360
+	},
+	{
+		"text": "Feature engineering is where magic happens. A good feature can boost accuracy more than any fancy model. ✨🔧",
+		"engagement": 1300
+	},
+	{
+		"text": "P-values < 0.05? Congrats, your result is ‘statistically significant’. But is it practically useful? Always ask this. 🧐📉",
+		"engagement": 9300
+	},
+	{
+		"text": "Data Science ≠ Just ML. 80% time is spent cleaning, analyzing, and communicating. Coding is 20%. 🧹📢",
+		"engagement": 1600
+	},
+	{
+		"text": "Domain knowledge > Fancy algorithms. A doctor-turned-DS will build better health models than a pure CS grad. 🏥🤝💻",
+		"engagement": 1500
+	},
+	{
+		"text": "You don’t need deep learning for every problem. Sometimes, logistic regression does the job better. Keep it simple. 🎯📉",
+		"engagement": 1200
+	},
+	{
+		"text": "Data imputation ≠ filling with mean blindly. Understand the missingness pattern—MCAR, MAR, MNAR. Context matters. 📚🔍",
+		"engagement": 720
+	},
+	{
+		"text": "Cross-validation isn't optional. It's the seatbelt of ML training. 🚗🧠",
+		"engagement": 870
+	},
+	{
+		"text": "Your model performs great on test data? Awesome. Now deploy it and check if it still survives in production. 🌍🧪",
+		"engagement": 380
+	},
+	{
+		"text": "Shiny dashboards won’t save poor data quality. Garbage in, garbage out still applies in 2025. 🗑️📉",
+		"engagement": 740
+	},
+	{
+		"text": "Overfitting isn’t just high accuracy on training data. It’s *false confidence*. A model that memorizes can’t generalize. ⚠️🧪",
+		"engagement": 1600
+	},
+	{
+		"text": "Neural networks don't 'think'—they approximate functions. The magic? Layered matrix multiplications + non-linearities. ✨🧮",
+		"engagement": 1300
+	},
+	{
+		"text": "ML models learn patterns—not meaning. Train a classifier on random labels, and it will still 'fit'. That's power *and* danger. 🎭📊",
+		"engagement": 850
+	},
+	{
+		"text": "A single neuron in a neural net is just a glorified dot product + bias. But millions of them? That’s deep learning magic. 🧠⚡",
+		"engagement": 1450
+	},
+	{
+		"text": "Every ML algorithm makes assumptions. Linear Regression assumes linearity, homoscedasticity, independence. Don’t ignore them. 📈🧠",
+		"engagement": 980
+	},
+	{
+		"text": "Dimensionality reduction ≠ just visualization. PCA, t-SNE, UMAP help find signal in noise and speed up training. 🌀📉",
+		"engagement": 1100
+	},
+	{
+		"text": "Loss function = language your model understands. MSE, Cross-Entropy, Hinge… choose wisely. 📉🗣️",
+		"engagement": 980
+	},
+	{
+		"text": "Transformers have no recurrence, yet beat RNNs. Self-attention lets them see *everything* at once. That’s game-changing. 🧠🔁",
+		"engagement": 1700
+	},
+	{
+		"text": "Data leakage is like giving the exam key to your model. It’ll ace the test, then fail in the real world. 🔓📉",
+		"engagement": 890
+	},
+	{
+		"text": "ML without proper evaluation is illusion. AUC, F1, precision-recall—each metric has a story. Listen carefully. 🧾📊",
+		"engagement": 1340
+	},
+	{
+		"text": "Correlation ≠ causation. ML can find patterns, but only domain knowledge reveals why they matter. 🧩🧠",
+		"engagement": 750
+	},
+	{
+		"text": "Decision Trees follow greedy algorithms—they split for the best gain *locally*, not globally. 🌲💡",
+		"engagement": 560
+	},
+	{
+		"text": "Regularization isn’t punishment. It’s discipline. L1 for sparsity, L2 for smoothness. Keep your models humble. 📏🔧",
+		"engagement": 1020
+	},
+	{
+		"text": "In unsupervised learning, there are no labels—just structure. Clustering, dimensionality reduction, anomaly detection = insight finders. 🕵️‍♂️🔍",
+		"engagement": 920
+	},
+	{
+		"text": "ML models are only as good as their features. Garbage features = garbage predictions. Feature engineering is *art + science*. 🎨📊",
+		"engagement": 1400
+	},
+	{
+		"text": "Optimization in deep learning doesn’t always reach global minima—and that’s okay. Local minima often *good enough*. 🏞️📉",
+		"engagement": 720
+	},
+	{
+		"text": "Data augmentation isn’t cheating—it’s training smarter. Rotate, crop, flip, noise—teach your model robustness. 📷🤹‍♂️",
+		"engagement": 1130
+	},
+	{
+		"text": "A lot of 'AI' in the real world is actually basic ML + smart engineering. Buzzwords ≠ breakthrough. 🧠💡",
+		"engagement": 870
+	},
+	{
+		"text": "Unbalanced classes? Accuracy will fool you. Always check precision, recall, and F1. ⚠️🔍",
+		"engagement": 1040
+	},
+	{
+		"text": "Batch size impacts learning. Small = noisy but generalizes well. Large = stable but may overfit. Balance is key. 🧮📦",
+		"engagement": 930
+	},
+	{
+		"text": "Early stopping isn't laziness—it’s regularization. Stop training when validation loss starts rising. 🛑📉",
+		"engagement": 990
+	},
+	{
+		"text": "Explainability tools like SHAP and LIME make black-box models understandable. Interpretability matters. 🔍📦",
+		"engagement": 1110
+	},
+	{
+		"text": "AI agents don't just predict—they *act*. Reinforcement learning gives them goals, rewards, and the ability to learn from the environment. 🧠🎯",
+		"engagement": 1200
+	},
+	{
+		"text": "Every RL agent is basically a scientist—experimenting, failing, adjusting, and learning from rewards. Trial and error = intelligence. 🧪🤖",
+		"engagement": 900
+	},
+	{
+		"text": "Autonomous AI agents like AutoGPT or BabyAGI use LLMs to *think, plan, and act* without human input. It’s like giving ChatGPT legs and memory. 🦾📚",
+		"engagement": 1600
+	},
+	{
+		"text": "Agents + memory = game-changer. Without long-term memory, agents forget past actions. With it? They evolve. 🧠🗂️",
+		"engagement": 980
+	},
+	{
+		"text": "AI agents in games like AlphaGo don't just memorize—they *strategize*. They simulate moves millions of steps ahead. 🧩♟️",
+		"engagement": 1100
+	},
+	{
+		"text": "Reward shaping in RL is like parenting. Give too much reward too early, and the agent will take shortcuts. 📉🍭",
+		"engagement": 750
+	},
+	{
+		"text": "AI agents aren’t just in labs—they power game bots, self-driving cars, stock trading, and robotic vacuums in your house. 🏎️📉🧹",
+		"engagement": 870
+	},
+	{
+		"text": "Multi-agent systems = AI agents collaborating or competing. Like AI teamwork—or AI Hunger Games. 🎮🤝⚔️",
+		"engagement": 990
+	},
+	{
+		"text": "LLM agents = prompt + memory + planning. They use tools, write code, and even delegate tasks to sub-agents. 🧑‍💻📦",
+		"engagement": 1340
+	},
+	{
+		"text": "The hardest part of building AI agents? Giving them clear goals. A vague objective = chaotic behavior. 🎯🤯",
+		"engagement": 710
+	},
+	{
+		"text": "AI agents using tools (like calculators or web search) show emergent intelligence. They *know* they don’t know—and fetch the answer. 🧠🔧",
+		"engagement": 1250
+	},
+	{
+		"text": "Exploration vs. Exploitation—an agent’s eternal dilemma. Play safe with known rewards, or explore the unknown? 🎲🕹️",
+		"engagement": 870
+	},
+	{
+		"text": "Agents that learn in simulation (like OpenAI Gym) can later be deployed in the real world—like virtual training for real pilots. 🛫🎮",
+		"engagement": 940
+	},
+	{
+		"text": "Future of AI? Autonomous agents that plan, learn, adapt, and collaborate—with or without us. 🤖🌍",
+		"engagement": 1500
+	},
+	{
+		"text": "Leadership in data science isn't about knowing every algorithm—it's about knowing whom to empower and what problem to solve. 🧠🎯",
+		"engagement": 1400
+	},
+	{
+		"text": "A great DS leader doesn’t just ask 'What’s the accuracy?' They ask: 'What action will this model drive?' ⚙️🧩",
+		"engagement": 1200
+	},
+	{
+		"text": "Being technical ≠ being a bottleneck. True DS leadership is about enabling—not controlling. Let others shine. 💡👥",
+		"engagement": 870
+	},
+	{
+		"text": "Senior DSs don’t obsess over code—they obsess over clarity, communication, and compounding team impact. 🧠🌱",
+		"engagement": 890
+	},
+	{
+		"text": "Leadership in AI teams = protect focus, remove blockers, and amplify the signal. Be the noise canceller. 🔇🔊",
+		"engagement": 880
+	},
+	{
+		"text": "Great leaders in data science build cultures of questioning, not just coding. ‘Why’ matters more than ‘how’. ❓👩‍🔬",
+		"engagement": 1040
+	},
+	{
+		"text": "As you grow, your job shifts from solving problems → helping others solve them better. Delegate, coach, unblock. 🎯🪜",
+		"engagement": 930
+	},
+	{
+		"text": "Being a leader in DS means loving ambiguity. Real-world problems don't come with clean labels or ready datasets. Embrace the mess. 🌀🧪",
+		"engagement": 1250
+	},
+	{
+		"text": "You prompt an LLM, it doesn’t think—it completes. Prediction ≠ reasoning. Understand the difference. 🧩🗣️",
+		"engagement": 950
+	},
+	{
+		"text": "LLMs don’t ‘understand’ language—they map token patterns in high-dimensional space. Semantics emerge from structure. 🧠📐",
+		"engagement": 1180
+	},
+	{
+		"text": "The same LLM can translate languages, write poems, generate code. Reason? It’s all text. Text is the ultimate interface. ✍️🧠",
+		"engagement": 1280
+	},
+	{
+		"text": "LLMs ke outputs deterministic nahi hote—unless temperature = 0. Stochasticity gives diversity, but adds unpredictability. 🔥🎲",
+		"engagement": 790
+	},
+	{
+		"text": "The universal function approximation theorem says: a neural network can approximate *any* function. Magic? No. Math. 🔢✨",
+		"engagement": 1100
+	},
+	{
+		"text": "You don't train a deep net—you guide it to minimize its own mistakes via gradients. Neural networks learn through *feedback*. 🔄🧠",
+		"engagement": 1250
+	},
+	{
+		"text": "Every layer in a neural network transforms raw data → abstract meaning. Pixels → edges → patterns → faces. 🎨➡️👤",
+		"engagement": 1300
+	},
+	{
+		"text": "ReLU isn’t just a random activation. It solves the vanishing gradient problem that killed deep nets in the 90s. 🔥🧮",
+		"engagement": 890
+	},
+	{
+		"text": "GANs don’t just generate—they compete. Generator vs Discriminator = zero-sum game of fake vs real. 🎭⚔️",
+		"engagement": 1100
+	},
+	{
+		"text": "Autoencoders learn data compression + reconstruction. Basically, they create their own summary and then decode it. 🧳🔁",
+		"engagement": 950
+	},
+	{
+		"text": "RNNs time series ke liye hai kyunki wo memory rakhte hain. But LSTMs/GRUs fix karte hain unki forgetting problem. 🕰️🧠",
+		"engagement": 1000
+	},
+	{
+		"text": "Visualization of feature maps shows what your CNN 'sees'. It’s like peeking into a neural brain. 🔍🧠",
+		"engagement": 1180
+	},
+	{
+		"text": "DL models are powerful—but interpretability is a real issue. Saliency maps, SHAP, LIME help build trust. 🔦🔬",
+		"engagement": 970
+	},
+	{
+		"text": "DL may be about layers—but progress comes from *depth* of thinking, not just depth of architecture. 🧠📚",
+		"engagement": 980
+	},
+	{
+		"text": "Softmax layer converts logits into probabilities. It’s like final decision maker in classification. 🎯📈",
+		"engagement": 950
+	},
+	{
+		"text": "Deep Learning doesn’t replace classical ML—it expands it. Know when to use trees, and when to go deep. 🌳➡️🧠",
+		"engagement": 980
+	},
+	{
+		"text": "Neural networks mimic human brain? Not really. They’re loosely inspired—mathematically crafted, not biologically exact. 🧠🤖",
+		"engagement": 940
+	},
+	{
+		"text": "DL without ethics is dangerous. Biased models, opaque decisions, surveillance nightmares. Build responsibly. ⚖️🚨",
+		"engagement": 1180
+	},
+	{
+		"text": "Max-pooling downsamples the input but keeps important features. Smart compression. 📦🔍",
+		"engagement": 890
+	},
+	{
+		"text": "MLOps = ML + DevOps. Not just training, but reproducibility, versioning, testing, deployment, and monitoring. 🔁⚙️",
+		"engagement": 1200
+	},
+	{
+		"text": "Dockerize your model. Reproducibility > Local success. If it works only on your laptop, it doesn’t work. 🐳🚀",
+		"engagement": 950
+	},
+	{
+		"text": "You can’t debug what you can’t log. ML monitoring = log predictions, latencies, errors. Build visibility into the system. 👀📊",
+		"engagement": 1040
+	},
+	{
+		"text": "CI/CD in MLOps = auto trigger retraining, testing, deployment. Manual steps = delay + risk. 🔁🚀",
+		"engagement": 870
+	},
+	{
+		"text": "Serving a model ≠ exporting a pickle file. Think FastAPI, TensorFlow Serving, TorchServe, or Triton Inference Server. 🌐📦",
+		"engagement": 980
+	},
+	{
+		"text": "Infrastructure as code (IaC) is real power. Terraform + Docker + Kubernetes = reproducible ML stack. ⚙️📜",
+		"engagement": 970
+	},
+	{
+		"text": "MLOps success metric? When non-ML folks can use your model like any other product feature. 🤝📦",
+		"engagement": 940
+	},
+	{
+		"text": "ML engineers ko bash, Git, Docker, cloud infra aani chahiye. Nahi toh model kabhi production tak nahi jaayega. ☁️🧰",
+		"engagement": 880
+	},
+	{
+		"text": "Don’t train on production. Don’t test on dev. Environment separation is sacred in MLOps. 🧪🔒",
+		"engagement": 890
+	},
+	{
+		"text": "When models break, it’s rarely the model’s fault—it’s usually the data pipeline, infra, or bad assumptions. 💥🔍",
+		"engagement": 1000
+	},
+	{
+		"text": "ML models degrade silently. Unless you monitor performance over time, you’ll never know it’s broken. 🧯📉",
+		"engagement": 960
+	},
+	{
+		"text": "Offline accuracy ≠ online success. Realtime mein context, delays, and user behavior matter more. ⏳📊",
+		"engagement": 950
+	},
+	{
+		"text": "Monitoring = alerts + dashboards + log tracing. Without observability, MLOps is just ops. 🔍📉",
+		"engagement": 980
+	},
+	{
+		"text": "You don’t need 100% automation. But 0 automation = chaos. MLOps is about balance. ⚖️🤖",
+		"engagement": 910
+	},
+	{
+	"text": "Random Forest is my ‘swiss army knife’ but 3 cases where XGBoost murders it: 🎯 1) Imbalanced data 2) Sparse features 3) When you need SHAP values.",
+	"engagement": 1000
+	},
+	{
+		"text": "90% of Data Science is cleaning inconsistent, messy data. The remaining 10% is wishing you had cleaner data. 🧹💭",
+		"engagement": 1600
+	},
+	{
+		"text": "PyTorch vs TensorFlow? PyTorch = intuitive for research. TF = scalable in production. Pick based on need, not hype. 🔄⚙️",
+		"engagement": 1200
+	},
+	{
+		"text": "Your model’s high accuracy might be a lie. Check for data leakage before you celebrate. 🎯🚨",
+		"engagement": 1500
+	},
+	{
+		"text": "Custom transformers in sklearn? Write your own `fit` and `transform`—makes your pipeline modular AF. 🛠️🚀",
+		"engagement": 950
+	},
+	{
+		"text": "Underrated tip: Use `FunctionTransformer` in sklearn to plug simple NumPy/Pandas logic directly into pipelines. 🧠🔌",
+		"engagement": 980
+	},
+	{
+		"text": "Why does your model crash during inference? Maybe train/test scale distributions are different. Normalize properly. 📉⚠️",
+		"engagement": 990
+	},
+	{
+		"text": "Feature selection ≠ remove low-importance features blindly. Some features are contextually vital. 🎯📈",
+		"engagement": 1130
+	},
+	{
+		"text": "Train a great model? Now test it on dirty, real-world data. Your pipeline must survive chaos. 🔁🔥",
+		"engagement": 1180
+	},
+	{
+		"text": "Want to scale your ML? Use `partial_fit()` in sklearn. Life saver for large datasets. 🧠💾",
+		"engagement": 1010
+	},
+	{
+		"text": "Data Science isn’t model tuning. It's debugging: ‘Why is this not working like I expected?’ 🔍🛠️",
+		"engagement": 1400
+	},
+	{
+		"text": "`StandardScaler` vs `MinMaxScaler`? Former = mean-centered, latter = bounded. Depends on algorithm. 🧮🔄",
+		"engagement": 870
+	},
+	{
+		"text": "Use `pipeline.named_steps` to debug sklearn pipelines. Otherwise, errors will haunt you. 👻📉",
+		"engagement": 930
+	},
+	{
+		"text": "XGBoost performs well but is not magic. Garbage in = garbage out. Clean data is still king. 👑🗑️",
+		"engagement": 1000
+	},
+	{
+		"text": "In clustering, don’t just trust silhouette scores—visualize clusters too. Interpretability is key. 📊👁️",
+		"engagement": 980
+	},
+	{
+		"text": "Train-test contamination ruins everything. Don’t peek. Don’t cheat. Split properly. 🚫🧪",
+		"engagement": 990
+	},
+	{
+		"text": "Model explainability > blind trust. Use SHAP, LIME, or feature importance to gain trust. 🔍⚖️",
+		"engagement": 1200
+	},
+	{
+		"text": "Class imbalance? Try SMOTE, stratified k-folds, or focal loss—don't just accept poor recall. 🎯⚖️",
+		"engagement": 1000
+	},
+	{
+		"text": "Unstructured data = images, text, audio. Structured ML tricks won’t apply directly. Understand data types first. 📂📸",
+		"engagement": 960
+	},
+	{
+		"text": "Memory error? Data type downcast karo. `float64` → `float32` se performance boost milta hai. 💾⚡",
+		"engagement": 890
+	},
+	{
+		"text": "Feature scaling ≠ always needed. Tree-based models don’t care. Linear models do. Know your algorithm. 🌳🧮",
+		"engagement": 950
+	},
+	{
+		"text": "Create helper functions during EDA—repeatability is underrated. DRY your notebook. 🧼🔁",
+		"engagement": 900
+	},
+	{
+		"text": "Never trust first impressions of your model. Train it again, differently. Check robustness. 🔁📊",
+		"engagement": 940
+	},
+	{
+		"text": "Your sklearn model = just math. Unless it’s explainable, testable, and sharable, it’s not ready. 📏📤",
+		"engagement": 970
+	},
+
+	{
+		"text": "Transformations like log, Box-Cox normalize skewed data. But only if applied carefully. 🧪📉",
+		"engagement": 920
+	},
+	{
+		"text": "Every great model started with messy CSVs and a confused notebook. Embrace the chaos. 🔄🧠",
+		"engagement": 1000
+	},
+
+	{
+		"text": "Model explainability isn’t optional—it’s your debugging toolkit in disguise. 🔎🛠️",
+		"engagement": 1080
+	},
+	{
+		"text": "2024's mantra: 'Smaller models, smarter results'. Efficiency > size — welcome to the TinyML era",
+		"engagement": 820
+	},
+	{
+		"text": "Multimodal AI is not the future — it’s the present. Images, text, audio — all processed by the same brain",
+		"engagement": 770
+	},
+	{
+		"text": "Open-source AI is booming — community-driven models like Mistral & LLaMA are changing the game",
+		"engagement": 810
+	},
+	{
+		"text": "AutoML tools are growing smarter — now ML engineers' speed has doubled",
+		"engagement": 730
+	},
+	{
+		"text": "Ethical AI discussions = serious business. Focus on bias reduction, explainability, and trust",
+		"engagement": 690
+	},
+	{
+		"text": "Real-time GenAI use-cases such as AI copilots and customer agents — now from boardrooms to homes",
+		"engagement": 845
+	},
+	{
+		"text": "LLMs + RAG = smarter enterprise AI. Connecting to a knowledge base makes models ultra-accurate",
+		"engagement": 760
+	},
+	{
+		"text": "When a data scientist showcases their feature engineering skills, only one line needs to be said - 'Accuracy touched the sky!'",
+		"engagement": 900
+	},
+	{
+		"text": "GRU is the smaller sibling of LSTM — same work, but faster and uses fewer resources",
+		"engagement": 545
+	},
+	{
+		"text": "Forget recurrence. Let's use attention to directly focus on important words anywhere in the sequence — all at once!",
+		"engagement": 500
+	},
+	{
+		"text": "LSTM is an expert at remembering — but if something is too old, it gets confused. Transformer: Forget time, just focus on what’s important",
+		"engagement": 610
+	},
+	{
+		"text": "When you're stuck tuning hyperparameters... remember, even GridSearchCV needed time to find itself",
+		"engagement": 420
+	},
+	{
+		"text": "Batch Normalization: When the model's mind is wandering, it brings it back to center — maintains balance",
+		"engagement": 570
+	},
+	{
+		"text": "Dropout: Sometimes you need to distance yourself from your best friends to avoid overfitting",
+		"engagement": 650
+	},
+	{
+		"text": "Transformer says — don't teach me sequence order, I'll understand by myself what is important",
+		"engagement": 720
+	},
+	{
+		"text": "Is your model overfitting? Apply regularization, otherwise, it will ace training but fail testing",
+		"engagement": 580
+	},
+	{
+		"text": "If the learning rate is low, the model will run in slow motion… if too high, it will explode. Balance is key",
+		"engagement": 600
+	},
+	{
+		"text": "BERT reads the entire sentence first, then decides context — looks both left and right",
+		"engagement": 730
+	},
+	{
+		"text": "RNN: I remember what was said before. LSTM: I remember what was important. Transformer: I remember everything and decide what to keep",
+		"engagement": 810
+	},
+	{
+		"text": "Loss function is like your goal — it tells the model how wrong it is. Gradient Descent is like your guide — it shows the model how to improve step by step",
+		"engagement": 510
+	},
+	{
+		"text": "Overfitting = when the model rote-learns questions outside the syllabus. Generalization = when the model understands and answers correctly — passes every exam",
+		"engagement": 615
+	},
+	{
+		"text": "Convolutional Neural Networks (CNNs) focus on local features in images. Think of it as scanning every small patch to find patterns like edges, textures, and shapes",
+		"engagement": 540
+	},
+	{
+		"text": "Why Batch Normalization? Because deep networks can have internal covariate shift. Normalizing each batch helps stabilize and speed up training",
+		"engagement": 590
+	},
+	{
+		"text": "Dropout randomly removes neurons during training. This regularization technique prevents the model from becoming overly dependent",
+		"engagement": 620
+	},
+	{
+		"text": "Activation functions like ReLU, Sigmoid, and Tanh help neural networks learn complex patterns. Without them, neural nets would be just linear regressions in disguise",
+		"engagement": 580
+	},
+	{
+		"text": "MLP (Multilayer Perceptron) is like a classic student: fully connected, layer by layer, solving problems through backpropagation",
+		"engagement": 550
+	},
+	{
+		"text": "Optimizer = a method to update model weights. SGD, Adam, RMSprop — each has its own style, but the goal is the same: minimize the loss",
+		"engagement": 600
+	},
+	{
+		"text": "Self-Attention allows the model to look at every word in a sentence and decide what matters the most — no matter the distance",
+		"engagement": 670
+	},
+	{
+		"text": "Positional Encoding is how Transformers understand the order of words — since unlike RNNs, they don’t have a natural sense of sequence",
+		"engagement": 640
+	},
+	{
+		"text": "Transformer architecture = Encoder + Decoder. Encoder understands input, Decoder generates output. Attention happens between them",
+		"engagement": 700
+	},
+	{
+		"text": "BERT focuses on understanding (encoding). GPT focuses on generating (decoding). Both are members of the Transformer family — but their roles differ",
+		"engagement": 750
+	},
+	{
+		"text": "Gradient Clipping is like speed control in training. If gradients become too large, the model can explode. Clipping prevents that",
+		"engagement": 570
+	},
+	{
+		"text": "Early Stopping = when model training is stopped midway to prevent overfitting. No further training after best validation performance",
+		"engagement": 600
+	},
+	{
+		"text": "Bidirectional RNNs read the input from both directions — left to right AND right to left. Better context, better predictions",
+		"engagement": 625
+	},
+	{
+		"text": "Why use embeddings in NLP? Because words are more than one-hot vectors. Embeddings give them meaning and similarity — 'king' and 'queen' will be close",
+		"engagement": 690
+	},
+	{
+		"text": "Code will sometimes run, sometimes fail. But the passion for learning should continue every day",
+		"engagement": 710
+	},
+	{
+		"text": "Learning ML is a marathon, not a sprint. Learn a little every day, consistency > speed",
+		"engagement": 800
+	},
+	{
+		"text": "When your model doesn't converge, don't panic. Even failure teaches — every epoch matters",
+		"engagement": 650
+	},
+	{
+		"text": "Are you a beginner? Perfect! All masters were once novices. Start, and shine",
+		"engagement": 720
+	},
+	{
+		"text": "More important than improving your model's accuracy is improving your mindset — real growth lies there",
+		"engagement": 680
+	},
+	{
+		"text": "One bad project doesn’t define you. Keep learning, keep building — your state-of-the-art moment will come",
+		"engagement": 765
+	},
+	{
+		"text": "When everyone gives up coding out of frustration... You stay, fix one more bug",
+		"engagement": 810
+	},
+	{
+		"text": "Don't compare. Someone else's GPT is your hello world. Your best version is competing with you",
+		"engagement": 860
+	},
+	{
+		"text": "Even the best models overfit sometimes. You’re human too. Reset, and fine-tune",
+		"engagement": 780
+	},
+	{
+		"text": "Success in ML = patience × practice. Study theory, implement, and let the results come",
+		"engagement": 700
+	},
+	{
+		"text": "Life is like a training loop — sometimes loss is high, sometimes low. Just don’t stop",
+		"engagement": 850
+	},
+	{
+		"text": "Believe in yourself once. The rest, optimizer and model, TensorFlow/PyTorch will handle",
+		"engagement": 900
+	},
+	{
+		"text": "AGI is not just a buzzword anymore. Every research paper is a step closer to general intelligence. Are you keeping up?",
+		"engagement": 890
+	},
+	{
+		"text": "Believe in yourself once. The rest, gradient descent and backprop, PyTorch autograd will handle!",
+		"engagement": 950
+	},
+	{
+		"text": "Now even startups say: 'We’ll build our own LLM!' Open-source LLM revolution is underway — join the wave",
+		"engagement": 960
+	},
+	{
+		"text": "AI + Agents = Automation on steroids — Tools like LangChain, AutoGPT are here. Upgrade your skills",
+		"engagement": 920
+	},
+	{
+		"text": "2024's trend: Small is powerful. Compact language models (SLMs) are being deployed in offices and running on edge devices",
+		"engagement": 870
+	},
+	{
+		"text": "Don't ignore multimodal AI — images + text + audio = new generation of understanding. OpenAI, Meta, Google are all doing this",
+		"engagement": 940
+	},
+	{
+		"text": "Retrieval-Augmented Generation (RAG) is 🔥 — Without RAG, LLMs feel outdated. Real-time context = smarter answers",
+		"engagement": 930
+	},
+	{
+		"text": "Focus on AI governance and ethics is increasing. Building models is easy, but who is learning to use them responsibly?",
+		"engagement": 880
+	},
+	{
+		"text": "Agents are becoming coworkers, not just tools. AI agent projects are now collaborative",
+		"engagement": 910
+	},
+	{
+		"text": "Tuned models > foundation models for industry deployment. Fine-tuning is the new black",
+		"engagement": 850
+	},
+	{
+		"text": "AI hiring in India 🔥 is on the rise. If you’ve demonstrated self-projects + open-source contributions, placements are within reach",
+		"engagement": 970
+	},
+	{
+		"text": "Hiring managers are done with 'just theoretical knowledge'. Show a Kaggle medal, or upload a model on GitHub — otherwise, jobs are distant",
+		"engagement": 980
+	},
+	{
+		"text": "For AI, do you need DSA + ML? In product-based companies, both are required. Maintain a balance",
+		"engagement": 860
+	},
+	{
+		"text": "Looking at a Prompt Engineer's salary provides motivation. Now talking to GPT is part of the job",
+		"engagement": 940
+	},
+	{
+		"text": "Writing 'trained a model' on your resume is not enough anymore. Write: ‘Reduced inference time by 30% using ONNX optimization.’ That hits",
+		"engagement": 910
+	},
+	{
+		"text": "Want an internship in AI? First contribute 3 commits to open-source, post on LinkedIn — HR will DM you",
+		"engagement": 975
+	},
+	{
+		"text": "AI jobs aren’t just in tech companies anymore. Pharma, Finance, Logistics – everyone needs machine learning professionals",
+		"engagement": 870
+	},
+	{
+		"text": "Do you think only Deep Learning is required? In real jobs, EDA, pipeline, deployment — all these are necessary",
+		"engagement": 920
+	},
+	{
+		"text": "Don’t apply randomly. It's better to apply to 5 roles with a tailored resume + mini-project link instead of 20 roles generically",
+		"engagement": 890
+	},
+	{
+		"text": "Soft skills are underrated for AI roles. If you can't explain your model, consider selection gone",
+		"engagement": 835
+	},
+	{
+		"text": "Remote AI jobs are plentiful, but building trust requires consistent presence on LinkedIn. Presence ≠ Performance, but it's the entry ticket",
+		"engagement": 880
+	},
+	{
+		"text": "Trained a sentiment analysis model on 1M+ tweets using LSTM, achieving 92% accuracy — the model understands emotions",
+		"engagement": 1100
+	},
+	{
+		"text": "Optimized Random Forest model for credit risk prediction, reducing false negatives by 28% — saved client money",
+		"engagement": 950
+	},
+	{
+		"text": "Built an end-to-end ML pipeline from data cleaning to model deployment using Scikit-learn, Flask & Heroku — full stack ML",
+		"engagement": 1025
+	},
+	{
+		"text": "Deployed a FastAPI-based image classification model on AWS with real-time prediction in < 1 sec — speed + scale",
+		"engagement": 980
+	},
+	{
+		"text": "Performed EDA on Airbnb dataset, identified 5 key pricing influencers using Seaborn & correlation plots — data speaks",
+		"engagement": 920
+	},
+	{
+		"text": "Reduced model training time by 35% using NumPy vectorization and batch gradient descent — efficiency level: Pro",
+		"engagement": 990
+	},
+	{
+		"text": "Achieved 0.89 F1-score in imbalanced fraud detection using SMOTE and XGBoost — whether imbalanced or tough, ready for it",
+		"engagement": 975
+	},
+	{
+		"text": "Collaborated with a team of 4 to create a dashboard visualizing COVID trends in India using Plotly & Dash — teamwork + tech",
+		"engagement": 900
+	},
+	{
+		"text": "Used transfer learning (ResNet50) to classify plant diseases with 93% accuracy — protecting farming with tech",
+		"engagement": 1050
+	},
+	{
+		"text": "Created a recommendation system for a movie app using cosine similarity & user-based filtering — Netflix junior in the making",
+		"engagement": 970
+	},
+	{
+		"text": "8 hours of sleep, 8 hours of work, what’s left? Only 8 hours — those decide the future",
+		"engagement": 1100
+	},
+	{
+		"text": "You don't need more time, you need more clarity. Schedule your priorities instead of prioritizing your schedule",
+		"engagement": 950
+	},
+	{
+		"text": "The era of multitasking is over — now it's about deep work. Take one task, live it fully, and achieve the best result",
+		"engagement": 1030
+	},
+	{
+		"text": "Every hour wasted today delays tomorrow's dream. Time doesn't wait… it flows",
+		"engagement": 980
+	},
+	{
+		"text": "Procrastination = delay   Action = upgrade  This is the difference between successful and regretful people",
+		"engagement": 1005
+	},
+	{
+		"text": "‘I don’t have time’ is the adult version of ‘The dog ate my homework.’  Everyone has 24 hours — mindset determines the outcome",
+		"engagement": 1080
+	},
+	{
+		"text": "When a researcher achieves a new SOTA, the entire leaderboard on paperswithcode needs updating!",
+		"engagement": 750
+	},
+	{
+		"text": "Productivity hack for coders: 1. Morning = Deep Work (Algos/ML models)  2. Noon = Learning (Docs/Tech blogs)  3. Night = Code Review + Planning  Pro tip: Use Pomodoro (25min focus + 5min walk) - Boosted my @github commits 3x!",
+		"engagement": 1200
+	},
+	{
+		"text": "Time Management = Life Management.  Whoever controls their 24 hours writes their own future",
+		"engagement": 990
+	},
+	{
+		"text": "Taking breaks is necessary — but during breaks, walk or journal instead of scrolling. Dopamine reset + mental clarity guaranteed",
+		"engagement": 925
+	},
+	{
+		"text": "Dreams are not what you see in sleep…  Dreams are what don't let you sleep",
+		"engagement": 500
+	},
+	{
+		"text": "People say dreaming is easy — I say dreaming small is a sin",
+		"engagement": 1380
+	},
+	{
+		"text": "Dream big. Start small. Act daily.  AI builds models — humans build the future",
+		"engagement": 905
+	},
+	{
+		"text": "Small thinking + big dreams = mismatch  My rule: belief big, action big, dream biggest",
+		"engagement": 320
+	},
+	{
+		"text": "Don’t downgrade your dream just to fit your comfort zone.  Upgrade your hustle to match your ambition",
+		"engagement": 470
+	},
+	{
+		"text": "A dream feels fake until it becomes real  Consistency is the bridge between 'idea' and 'reality'",
+		"engagement": 930
+	},
+	{
+		"text": "Falling somewhere, learning something — this is the journey of dreams  Perfect timing doesn’t exist… just start",
+		"engagement": 795
+	},
+	{
+		"text": "Before training ML models, train yourself.  The dream you see — preparation matters more than prediction",
+		"engagement": 1365
+	},
+	{
+		"text": "I also had a dream:  To combine AI, ML, and life to create something big someday 🔥  The journey has started… no stopping now",
+		"engagement": 1400
+	},
+	{
+		"text": "To understand CNN power, imagine specs — the first layer detects edges, subsequent layers detect complex features. Like reading letters first, then words",
+		"engagement": 920
+	},
+	{
+		"text": "In 2024, Vision Transformers (ViT) are here! Process patches, apply attention — images are now sequences",
+		"engagement": 880
+	},
+	{
+		"text": "Object detection = the game of finding. YOLO says - look once and find everything",
+		"engagement": 950
+	},
+	{
+		"text": "Semantic segmentation = pixel-level understanding. Label every pixel, like giving individual attention to every student",
+		"engagement": 830
+	},
+	{
+		"text": "Data augmentation = the poor man’s way to increase datasets! Flip, rotate — one image becomes ten",
+		"engagement": 790
+	},
+	{
+		"text": "Transfer learning in CV = leveraging someone else's effort! Use a pretrained model, fine-tune on your data",
+		"engagement": 870
+	},
+	{
+		"text": "OpenCV = the Swiss Army knife of computer vision. Video processing or edge detection — it does it all",
+		"engagement": 850
+	},
+	{
+		"text": "Attention maps show where the model is focusing. Like focusing on faces in selfies, the model focuses on important parts",
+		"engagement": 910
+	},
+	{
+		"text": "3D vision = understanding the real world! Point clouds, depth maps — now models can see in full 3D",
+		"engagement": 890
+	},
+	{
+		"text": "CV project formula: 1) Understand the problem 2) Gather data 3) Train the model 4) Deploy. Brother-approved pipeline",
+		"engagement": 970
+	},
+	{
+		"text": "GANs = excellence in imitation! Create realistic fake images — like motivational posts that seem original but aren't",
+		"engagement": 940
+	},
+	{
+		"text": "Running CV on edge devices = real challenge! Make the model smaller, increase speed — it should run on mobile, not supercomputers",
+		"engagement": 900
+	},
+	{
+		"text": "Self-supervised learning = learning without a teacher! Like learning to ride a bike as a child, the model learns similarly",
+		"engagement": 860
+	},
+	{
+		"text": "The future of CV is multimodal — images + text + audio. Like telling a story from a photo, AI is doing that",
+		"engagement": 980
+	},
+	{
+		"text": "Someone told you to learn CV? Brother says — learn and showcase! Do a project, upload to GitHub, share on LinkedIn. Opportunities will knock",
+		"engagement": 550
+	},
+	{
+		"text": "After four hours of debugging, the error got fixed? Celebration is due! Only those who struggle can remove deep-rooted problems",
+		"engagement": 420
+	},
+	{
+		"text": "Code failed? Good. Run it again. Failed again? Even better. Until ‘exit code 0’ appears, giving up isn’t an option",
+		"engagement": 380
+	},
+	{
+		"text": "People say: ‘You can’t do it’… Your computer says: ‘Segmentation fault (core dumped)’. Ignore both, run the ‘make’ command",
+		"engagement": 800
+	},
+	{
+		"text": "The frustration of seeing compiler errors at 3 AM is what will get you a 30LPA ‘Senior Dev’ position. Pain is temporary, commits are permanent",
+		"engagement": 590
+	},
+	{
+		"text": "Did your ‘Hello World’ start running? My ‘Hello World’ from 10 years ago built a unicorn today. Start small, stay consistent, explode later",
+		"engagement": 850
+	},
+	{
+		"text": "StackOverflow copy-pasters vs. Documentation readers — the difference shows in 5 years. Shortcuts don’t pay salaries; skills do",
+		"engagement": 700
+	},
+	{
+		"text": "Did your first PR merge? Celebrate! Is your GitHub contribution grid green? Celebrate more! Learn to celebrate small wins, or burnout will hit",
+		"engagement": 900
+	},
+	{
+		"text": "Junior dev: ‘I don’t know’  Senior dev: ‘I don’t know yet’  One word difference, mindset earthquake",
+		"engagement": 800
+	},
+	{
+		"text": "Rejected in a coding interview? Good. Now you know ‘Binary Search’ was missing. Every ‘no’ prepares you for the next ‘yes’",
+		"engagement": 790
+	},
+	{
+		"text": "My rule: Learn one new error daily, one new concept daily. 365 days × 1 concept = 365x growth. Power of compounding interest",
+		"engagement": 500
+	},
+	{
+		"text": "No job? Start freelancing. No clients? Contribute to open-source. ‘No’ means ‘new path’, not a dead end",
+		"engagement": 1000
+	},
+	{
+		"text": "Your IDE is your gym. Code is your workout. Bugs are your stamina test. Stay consistent for 6 months, and the ‘tech lead’ title will chase you",
+		"engagement": 700
+	},
+	{
+		"text": "‘I’m not smart enough’ — the biggest lie. 95% of your competitors also used ChatGPT to write code. Originality > Genius",
+		"engagement": 800
+	},
+	{
+		"text": "Brother guarantee: Practice DSA for 1 hour daily for 30 days, and interviewers will fear you. Power lies in consistency",
+		"engagement": 900
+	},
+	{
+		"text": "100 bugs in your code? Perfect. 101 fixes to commit. Legends are made by not giving up after saving",
+		"engagement": 1200
+	},
+	{
+		"text": "Improvement mantra: 1% better every day. After 365 days, you’ll be 37x upgraded!",
+		"engagement": 896
+	},
+	{
+		"text": "What’s more important than waking up at 5 AM? The one hour you dedicate to books/podcasts. Wake up immediately when the alarm rings, or snoozing life will snooze opportunities",
+		"engagement": 620
+	},
+	{
+		"text": "Your network = your net worth. In 5 years, your average bank balance will match your 5 closest connections. Choose wisely",
+		"engagement": 600
+	},
+	{
+		"text": "Afraid of mistakes? Brother, failures aren’t written on your CV… but the lessons learned from them will shine in every interview. Don’t quit, learn!",
+		"engagement": 840
+	},
+	{
+		"text": "Read what you apply. 10 stacked books > 100 skimmed books. Knowledge is useless without action",
+		"engagement": 900
+	},
+	{
+		"text": "Stop scrolling Instagram aimlessly. Try 30 days of digital detox, and your dopamine receptors will thank you",
+		"engagement": 1000
+	},
+	{
+		"text": "Meditation is CTRL+ALT+DEL for your brain. 10 mins/day = mental cache cleared",
+		"engagement": 1200
+	},
+	{
+		"text": "They’ll say: ‘It’s too late’… Remember: Your ‘late’ is someone else’s ‘early’. The perfect time to start never arrives—create it!",
+		"engagement": 590
+	},
+	{
+		"text": "Stop comparing Chapter 1 of your life to someone’s Chapter 20. Your book is still being written",
+		"engagement": 840
+	},
+	{
+		"text": "Go to the gym or do yoga, but move your body. A healthy body ensures peak brain performance",
+		"engagement": 900
+	},
+	{
+		"text": "Journaling = talking to your future self. Six months later, you’ll thank your past self for the clarity",
+		"engagement": 399
+	},
+	{
+		"text": "Need confidence? Fake it till you make it? No… Prepare till you nail it! Preparation is true swagger",
+		"engagement": 700
+	},
+	{
+		"text": "The 5 AM club isn’t about waking up early—it’s about owning your day before the world distracts you",
+		"engagement": 1300
+	},
+	{
+		"text": "Need motivation? Make ‘Discipline’ your best friend. Motivation comes and goes, discipline stays lifelong",
+		"engagement": 1400
+	},
+	{
+		"text": "Self-improvement is selfish until it’s not. Grow fast, lift others faster",
+		"engagement": 1000
+	},
+	{
+		"text": "First rule of Data Science: ‘Garbage in, garbage out’. If the data isn’t clean, the model will be garbage",
+		"engagement": 800
+	},
+	{
+		"text": "Python or R? Language doesn’t matter, problem-solving does. Pick one and master EDA, stats, and visualization first",
+		"engagement": 360
+	},
+	{
+		"text": "Kaggle medals don’t get you jobs—dealing with real-world messy data does. That’s what makes you 10x better",
+		"engagement": 900
+	},
+	{
+		"text": "Feature engineering is where the magic happens. A good feature can boost accuracy more than any fancy model",
+		"engagement": 1300
+	},
+	{
+		"text": "Overfitting = Demo-day superstar, customer-pitch flop!  Use cross-validation, apply regularization",
+		"engagement": 800
+	},
+	{
+		"text": "SQL >>> NoSQL for DS jobs. 90% of the time, you’ll query structured data. ‘SELECT * FROM hustle’ should be your skill",
+		"engagement": 1200
+	},
+	{
+		"text": "No model explainability? Then it’s a black box, and clients won’t trust it! Learn LIME, SHAP, or you won’t answer ‘Why?’",
+		"engagement": 900
+	},
+	{
+		"text": "The best data scientists are storytellers. Numbers should turn into narratives—KPIs, trends, and ‘so what?’",
+		"engagement": 1400
+	},
+	{
+		"text": "Learn cloud (AWS/GCP)! Training 1M rows locally vs. 100M rows in the cloud makes a huge difference",
+		"engagement": 700
+	},
+	{
+		"text": "P-values < 0.05? Congrats, your result is ‘statistically significant’. But is it practically useful? Always ask this",
+		"engagement": 9300
+	},
+	{
+		"text": "AutoML tools are a good start, but don’t depend on them. Understand the underlying mechanics, or interviews will grill you on ‘bagging vs boosting’",
+		"engagement": 800
+	},
+	{
+		"text": "Data Science ≠ Just ML. 80% of the time is spent cleaning, analyzing, and communicating. Coding is 20%",
+		"engagement": 1600
+	},
+	{
+		"text": "The journey from Jupyter Notebook to production code is tough. Learn scripting, unit testing, Docker—or your model will stay in notebooks",
+		"engagement": 900
+	},
+	{
+		"text": "Domain knowledge > Fancy algorithms. A doctor-turned-DS will build better health models than a pure CS grad",
+		"engagement": 1500
+	},
+	{
+		"text": "DS interviews focus 90% on SQL + Stats + Case studies. Study smart, not just hard",
+		"engagement": 1300
+	},
+	{
+		"text": "Model accuracy 99%? Great! But check if the dataset is imbalanced. Confusion matrix analysis is compulsory",
+		"engagement": 850
+	},
+	{
+		"text": "You don’t need deep learning for every problem. Sometimes, logistic regression does the job better. Keep it simple",
+		"engagement": 1200
+	},
+	{
+		"text": "The most underrated skill in ML? Feature engineering. Kaggle’s top solutions rely heavily on it",
+		"engagement": 600
+	},
+	{
+		"text": "Understand bias-variance tradeoff, and you’ve understood 50% of ML. The rest is hyperparameter tuning and patience",
+		"engagement": 750
+	},
+	{
+		"text": "Hyperparameter tuning = model spa day. A bit of GridSearchCV and patience, and miracles can happen",
+		"engagement": 1300
+	},
+	{
+		"text": "Don’t chase accuracy blindly. Use AUC-ROC, F1, precision-recall… choose metrics based on the problem",
+		"engagement": 980
+	},
+	{
+		"text": "If your model is too good to be true, it probably is. Check for overfitting, or you’ll embarrass yourself in front of clients",
+		"engagement": 400
+	},
+	{
+		"text": "Data imputation ≠ filling with mean blindly. Understand the pattern of missingness—MCAR, MAR, MNAR. Context matters",
+		"engagement": 720
+	},
+	{
+		"text": "Topping Kaggle leaderboards ≠ mastering real-world ML. Dirty data, stakeholders, and deadlines are a different game",
+		"engagement": 1100
+	},
+	{
+		"text": "The real struggle in ML? Explaining the model and having the client ask, ‘What does this mean?’ Storytelling is essential",
+		"engagement": 1600
+	},
+	{
+		"text": "If your pipeline has data leakage, you need to tune more than just your model",
+		"engagement": 560
+	},
+	{
+		"text": "Cross-validation isn’t optional. It’s the seatbelt of ML training",
+		"engagement": 870
+	},
+	{
+		"text": "Wanna be an ML engineer? Don’t just learn models—learn APIs, deployment, CI/CD. These should be in your portfolio",
+		"engagement": 1450
+	},
+	{
+		"text": "Being a data scientist isn’t just about writing code—it’s about extracting insights, explaining them, and showing impact",
+		"engagement": 990
+	},
+	{
+		"text": "Your model performs great on test data? Awesome. Now deploy it and see if it survives in production",
+		"engagement": 380
+	},
+	{
+		"text": "‘Black box’ models may look cool, but explainability is crucial—otherwise regulators will ask, ‘What did you do?’",
+		"engagement": 810
+	},
+	{
+		"text": "First ML project? Start with a tabular dataset. MNIST and Titanic help build intuition",
+		"engagement": 460
+	},
+	{
+		"text": "Shiny dashboards won’t save poor data quality. Garbage in, garbage out still applies in 2025",
+		"engagement": 740
+	},
+	{
+		"text": "If you don’t understand model drift, monitoring is pointless. Live data ≠ training data forever",
+		"engagement": 670
+	},
+	{
+		"text": "Before ML, understand Excel. A lot of real-world insights hide in spreadsheets",
+		"engagement": 530
+	},
+	{
+		"text": "The concept of Gradient Descent isn’t limited to ML—it’s the king of optimization. Every neural net’s heartbeat is this",
+		"engagement": 900
+	},
+	{
+		"text": "Overfitting isn’t just high accuracy on training data. It’s false confidence. A model that memorizes can’t generalize",
+		"engagement": 1600
+	},
+	{
+		"text": "Neural networks don’t ‘think’—they approximate functions. The magic? Layered matrix multiplications + non-linearities",
+		"engagement": 1300
+	},
+	{
+		"text": "Did you know? ReLU activation changed deep learning. Without it, vanishing gradients slowed down models",
+		"engagement": 1000
+	},
+	{
+		"text": "ML models learn patterns—not meaning. Train a classifier on random labels, and it will still ‘fit’. That’s power *and* danger",
+		"engagement": 850
+	},
+	{
+		"text": "Ensemble methods like Random Forest derive strength from diversity. Weak learners + aggregation = strong results",
+		"engagement": 720
+	}
+	]
