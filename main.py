@@ -96,10 +96,10 @@ if st.button("Generate Post"):
     if topic:
         if few_shot_provider:
             examples = few_shot_provider.get_top_engaging_posts(length, topic, n=num_examples)
-            generated_post = generate_post(length, topic, formatting_style=style, few_shot_examples=examples)
+            generated_post = generate_post(length, topic, formatting_style=style, reference_post_examples=examples)
             st.subheader("Generated Post:")
             st.write(generated_post)
         else:
-            st.warning("Few-shot examples are not available.")
+            st.warning("Reference-post examples are not available.")
     else:
         st.warning("Please select or enter a topic.")
