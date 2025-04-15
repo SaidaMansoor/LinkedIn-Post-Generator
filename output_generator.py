@@ -1,19 +1,17 @@
-# post_generator.py
-
 from llm_helper import llm
-from few_shots import FewShotPosts  # Importing the class from the other file
+from reference_posts import ReferencePosts  # Importing the class from the other file
 import random
 import os
 
 os.makedirs("data", exist_ok=True)
 
 # This instance will hold the processed posts for few-shot examples
-print("Initializing FewShotPosts for post generation...")
+print("Initializing ReferencePosts for post generation...")
 try:
-    few_shot_provider = FewShotPosts(file_path="data/pro_posts.json")
+    reference_post_provider = ReferencePosts(file_path="data/pro_posts.json")
 except Exception as e:
-    print(f"Error initializing FewShotPosts: {e}. Few-shot examples might be unavailable.")
-    few_shot_provider = None  # Set to None to handle gracefully later
+    print(f"Error initializing ReferencePosts: {e}. Few-shot examples might be unavailable.")
+    reference_post_provider = None  # Set to None to handle gracefully later
 
 def get_length_str(length):
     """Converts length category to a string description for the prompt."""
@@ -26,7 +24,7 @@ def get_length_str(length):
     return "any length"  # Fallback
 
 
-def get_prompt(length, tag, formatting_style="Auto", few_shot_examples=None):
+def get_prompt(length, tag, formatting_style="Auto", reference_post_examples=None):
     """
     Builds the LLM prompt for generating an English LinkedIn post.
 
@@ -79,9 +77,9 @@ Structure of the Post:
     else:  # Default to plain text if style is unrecognized
         prompt += "\n4) Formatting: Write in plain paragraphs only."
 
-    if few_shot_examples:
+    if reference_post_examples:
         prompt += "\n\n5) Writing Style Examples: Emulate the style, tone, and structure of the following English examples, but generate new content for the requested topic."
-        for i, post_data in enumerate(few_shot_examples[:2]):  # Use a maximum of 2 examples
+        for i, post_data in enumerate(reference_post_examples[:2]):  # Use a maximum of 2 examples
             post_text = post_data.get('text', 'Example text not available.')
             prompt += f'\n\n--- Top Engaging Example {i+1} ---\n{post_text}\n--- End Top Engaging Example {i+1} ---'
     else:
@@ -91,7 +89,7 @@ Structure of the Post:
 
     return prompt
 
-def generate_post(length, tag, formatting_style="Auto", few_shot_examples=None):
+def generate_post(length, tag, formatting_style="Auto", reference_post_examples=None):
     """
     Generates an English LinkedIn post using the LLM based on specified parameters
     and optional few-shot examples.
@@ -101,7 +99,7 @@ def generate_post(length, tag, formatting_style="Auto", few_shot_examples=None):
         tag (str): The unified topic tag for the post.
         formatting_style (str): Desired formatting ("Auto", "Use Emojis",
                                         "Use Bullet Points", "Plain Text").
-        few_shot_examples (list, optional): A list of example posts to guide generation.
+        reference_post_examples (list, optional): A list of example posts to guide generation.
 
     Returns:
         str: The generated post content, or an error message.
@@ -109,7 +107,7 @@ def generate_post(length, tag, formatting_style="Auto", few_shot_examples=None):
     print(f"\nGenerating post for Tag='{tag}', Length='{length}', Style='{formatting_style}'...")
 
     try:
-        prompt = get_prompt(length, tag, formatting_style, few_shot_examples)
+        prompt = get_prompt(length, tag, formatting_style, reference_post_examples)
         response = llm.invoke(prompt)
         generated_content = response.content
         print("  -> LLM invocation successful.")
@@ -124,15 +122,15 @@ if __name__ == "__main__":
 
     chosen_tag = "AI"  # Default example tag (can be any tag now)
     available_tags = []
-    if few_shot_provider:
-        available_tags = few_shot_provider.get_tags()
+    if reference_post_provider:
+        available_tags = reference_post_provider.get_tags()
         if available_tags:
             # Choose a random tag from the available ones for variety
             chosen_tag = random.choice(available_tags)
         else:
-            print("No tags loaded from FewShotPosts. Using default example tag.")
+            print("No tags loaded from ReferencePosts. Using default example tag.")
     else:
-        print("FewShotPosts provider not initialized. Using default example tag.")
+        print("ReferencePosts provider not initialized. Using default example tag.")
 
     # Define desired parameters
     post_length = "Medium"
@@ -140,7 +138,7 @@ if __name__ == "__main__":
     example_posts_for_test = [{"text": "Test example post 1."}, {"text": "Test example post 2."}]
 
     # Generate the post WITH few-shot examples for testing
-    generated_post_content = generate_post(post_length, chosen_tag, formatting_style=post_style, few_shot_examples=example_posts_for_test)
+    generated_post_content = generate_post(post_length, chosen_tag, formatting_style=post_style, reference_post_examples=example_posts_for_test)
 
     # Print the result
     print("\n--- Generated LinkedIn Post ---")

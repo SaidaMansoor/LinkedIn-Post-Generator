@@ -4,10 +4,10 @@ import os
 
 os.makedirs("data", exist_ok=True)
 
-class FewShotPosts:
+class ReferencePosts:
     def __init__(self, file_path="data/pro_posts.json"):
         """
-        Initializes the FewShotPosts class by loading and processing posts.
+        Initializes the ReferencePosts class by loading and processing posts.
 
         Args:
             file_path (str): Path to the processed posts JSON file.
@@ -199,9 +199,9 @@ class FewShotPosts:
 
 
 if __name__ == "__main__":
-    print("Initializing FewShotPosts...")
+    print("Initializing ReferencePosts...")
     # Instantiate the class (loads data)
-    fs = FewShotPosts(file_path="data/pro_posts.json")
+    fs = ReferencePosts(file_path="data/pro_posts.json")
 
     # Get available tags (all unique unified tags)
     available_tags = fs.get_tags()
@@ -238,6 +238,6 @@ if __name__ == "__main__":
         else:
             print("\nNo tags available to filter examples.")
     else:
-        print("\nNo tags loaded from FewShotPosts.")
+        print("\nNo tags loaded from ReferencePosts.")
 
-    print("\nFewShotPosts script finished.")
+    print("\ReferencePosts script finished.")

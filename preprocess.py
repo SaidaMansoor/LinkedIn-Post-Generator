@@ -1,5 +1,3 @@
-# preprocess.py
-
 import json
 import os
 from llm_helper import llm 
