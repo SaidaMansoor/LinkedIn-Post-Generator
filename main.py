@@ -91,6 +91,7 @@ length = st.selectbox("Select the desired length:", ["Short", "Medium", "Long"])
 style = st.selectbox("Select the formatting style:", ["Auto", "Use Emojis", "Plain Text"])
 
 num_examples = st.slider("Number of Engaging Examples to Use:", min_value=0, max_value=5, value=2)
+st.write("Indicate the number of past successful posts (0 to 5) to use as inspiration for the generated content's style. More examples can lead to a more aligned output.")
 
 if st.button("Generate Post"):
     if topic:
